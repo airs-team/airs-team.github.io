@@ -1,28 +1,65 @@
 .main_box{
     width: 67%;
-    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.5em;
     font-size: 17px;
+    background-color: #ffffff;
+    border-radius: 5px;
 }
+
+.main_box_inside{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_box_outside{
+    background-color: #f5f5f5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+h3{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .people-photo {
     border-radius: 50%;
     height:200px!important;
     width:200px!important;
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .thumbnail-mvp{
     padding: 4px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     line-height: 1.42857143;
     text-align: center
 }
 .thumbnail-people{
     padding: 4px;
-    margin-bottom: 20px;
+    /* margin-top: 20px; */
+    border-top: 10px;
     /* height: 280px; */
     line-height: 1.42857143;
     text-align: center
