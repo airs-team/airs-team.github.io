@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<!-- saved from url=(0057)http://www.icst.pku.edu.cn/struct/people/yangs/index.html -->
-<html class="csstransforms csstransforms3d csstransitions">
-
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-	<title>图像解译与智能处理实验室</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图像解译与智能处理实验室</title>
+    <link rel="icon" href="./img/icon/ai.ico" type="image/x-ico">
 	<link href="./files/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 	<link href="./files/style.css" rel="stylesheet" type="text/css" media="all">
 	<link href="./files/prettyPhoto.css" rel="stylesheet" type="text/css" media="all">
 	<link href="./files/css" rel="stylesheet" type="text/css">
-	<link href="./files/content.css" rel="stylesheet" type="text/css">
+	<!-- <link href="./files/content.css" rel="stylesheet" type="text/css"> -->
 	<script type="text/javascript" src="./files/jquery.min.js.下载"></script>
 	<script type="text/javascript" src="./files/bootstrap.js.下载"></script>
 	<script type="text/javascript" src="./files/jquery.banner.js.下载"></script>
@@ -32,59 +32,394 @@
 			alert("Coming soon.");
 		}
 	</script>
+    <link rel="stylesheet" href="./stylesheets/style_new.css" type="text/css" media="all">
+    <!-- 对table临时修改 -->
+    <style>
+        .main_box{
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5em;
+    font-size: 17px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
 
+.main_box_inside{
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_box_outside{
+    background-color: #f5f5f5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.people-photo {
+    border-radius: 50%;
+    height:200px!important;
+    width:200px!important;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+}
+.thumbnail-mvp{
+    padding: 4px;
+    /* margin-bottom: 20px; */
+    line-height: 1.42857143;
+    text-align: center
+}
+.thumbnail-people{
+    padding: 4px;
+    /* margin-top: 20px; */
+    border-top: 10px;
+    /* height: 280px; */
+    line-height: 1.42857143;
+    text-align: center
+}
+.container{
+    font-family: Palatino Linotype, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.academicegree{
+    font-size: 2.28rem;
+    /* line-height: 110%; */
+    margin: 1.14rem 0 0.912rem 0;
+}
+.row:nth-child(2n){
+    background:whitesmoke;
+}
+    </style>
 </head>
-
 <body>
-	<div style="display: flex; flex-direction: column; height: 100vh;">
-		<div class="header">
-			<div class="top-nav" style="display: flex;">
-				<div style="float: left;width: 289px;">
-					<ul>
-						<li id=" index" onclick="func(&#39;Me&#39;)"><a href="./index.html" class="scroll">主页</a></li>
-						<li id="Member" onclick="func(&#39;Member&#39;)"><a href="./Member.html" class="scroll">成员</a>
-						</li>
-						<li id="Publication" onclick="func(&#39;Publications&#39;)"><a href="./Publication.html"
-								class="scroll">论著</a></li>
-					</ul>
-				</div>
-				<div style="text-align:center; float: none;">
-					<img style="width: 20%; height: auto;" src="./img/ai.jpg">
-				</div>
-				<div style="float: right;">
-					<ul>
-						<li id="Achievement" onclick="func(&#39;Achievement&#39;)"><a href="./Achievement.html"
-								class="scroll">成果</a></li>
-						<li id="Act" onclick="func(&#39;Act&#39;)"><a href="./Act.html" class="scroll">活动</a></li>
-						<li id="Contact" onclick="func(&#39;Contact&#39;)"><a href="./Contact.html"
-								class="scroll">联系方式</a>
-					</ul>
-				</div>
-			</div>
+    <div class="header">
+        <div class="top-nav" style="display: flex;">
+            <div style="float: left;width: 289px;">
+                <ul>
+                    <li id=" index" onclick="func(&#39;Me&#39;)"><a href="./index.html" class="scroll">主页</a></li>
+                    <li id="Member" onclick="func(&#39;Member&#39;)"><a href="./Member.html" class="scroll">成员</a>
+                    </li>
+                    <li id="Publication" onclick="func(&#39;Publications&#39;)"><a href="./Publication.html"
+                            class="scroll">论著</a></li>
+                </ul>
+            </div>
+            <div style="text-align:center; float: none;">
+                <img style="width: 20%; height: auto;" src="./img/else/ai.jpg">
+            </div>
+            <div style="float: right;">
+                <ul>
+                    <li id="Achievement" onclick="func(&#39;Achievement&#39;)"><a href="./Achievement.html"
+                            class="scroll">成果</a></li>
+                    <li id="Act" onclick="func(&#39;Act&#39;)"><a href="./Act.html" class="scroll">活动</a></li>
+                    <li id="Contact" onclick="func(&#39;Contact&#39;)"><a href="./Contact.html"
+                            class="scroll">联系方式</a>
+                </ul>
+            </div>
+        </div>
 
-			<div class="clear"> </div>
-		</div>
+        <div class="clear"> </div>
+    </div>
 
-		<div class="main_box_outside">
-			<div class="main_box">
-				<div class="main_box_inside">
 
-					<div style="text-align: center;">
-						<div style="padding-top: 8px;">
-							<img src="./img/act_graduate.png">
-						</div>
 
-						<i>
-							<h4>实验室活动之毕业留念</h4>
-						</i>
-					</div>
+    <table id="table_80">
+        <tbody>
+            <tr>
+                <td>
+                    <!-- 暂时没做超链接 -->
+                    <table id="carousel" style="margin-left: auto; margin-right: auto;margin-top: 20px;">
+                        <tr>
+                            <td style="padding: 0;">
+                                <div class="carousel" >
+                                    <div class="container">
+                                        <a target="_blank"
+                                            ><img src="./img/activities/gallery_meetsing/meetsing_3.jpg"
+                                        /></a>
+                                        <a target="_blank"
+                                            ><img src="./img/activities/gallery_meetsing/meetsing_2.jpg"
+                                        /></a>
+                                        
+                                        <a target="_blank"
+                                            ><img src="./img/activities/gallery_meetsing/meetsing_4.jpg"
+                                        /></a>
+                                        
+                                        <!-- 这张图片不是四比三的 -->
+                                        <!-- <a target="_blank"
+                                            ><img src="./img/activities/gallery_meetsing/meetsing_7.jpg"
+                                        /></a> -->
+                                        <a target="_blank"
+                                            ><img src="./img/activities/gallery_act/outdooract_1.jpg"
+                                        /></a>
+                                        <a target="_blank"
+                                            ><img src="./img/activities/gallery_act/outdooract_2.jpg"
+                                        /></a>
+                                        <a target="_blank"
+                                            ><img src="./img/activities/gallery_act/outdooract_3.jpg"
+                                        /></a>   
 
-				</div>
-			</div>
-		</div>
+                                    </div>
+                                    <div class="shift">
+                                        <div class="btn left" onclick="leftShift()">&lt;</div>
+                                        <div class="btn right" onclick="rightShift()">&gt;</div>
+                                    </div>
+                                    <div class="bottom"></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
 
-		<div id="填充" style="width: 100%; flex: auto; background-color: #f5f5f5;"></div>
-	</div>
+                    <br>
+
+                    <table style="width: 804px;margin-left: auto;margin-right: auto;">
+                        <tbody>
+                            <!-- 会议照片 -->
+                            <tr>
+                                <td style="width: 35%;vertical-align: top;">
+                                    <img src="./img/activities/list/meetsing.jpg" alt="" style="width: 300px;height: 180px;object-fit: cover;">
+                                </td>
+                                <td style="vertical-align: top;padding-left: 10px;">
+                                    实验室老师与同学参会照片，包括2023第十届雷达博览会、IGARSS2016、IGARSS2017、IGARSS2018、IGARSS2019、IET Radar Conference2013等会议。
+                                </td>
+                            </tr>
+
+                            <!-- 户外活动 -->
+                            <tr>
+                                <td style="width: 35%;vertical-align: top;">
+                                    <img src="./img/activities/list/outdooract.jpg" alt="" style="width: 300px;height: 180px;object-fit: cover;">
+                                </td>
+                                <td style="vertical-align: top;padding-left: 10px;">
+                                    团队团建、户外活动等。
+                                </td>
+                            </tr>
+
+                            <!-- 毕业照 -->
+                            <tr>
+                                <td style="width: 35%;vertical-align: top;">
+                                    <img src="./img/activities/list/graduation.png" alt="" style="width: 300px;height: 180px;object-fit: cover;">
+                                </td>
+                                <td style="vertical-align: top;padding-left: 10px;">
+                                    毕业留念。
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
-
 </html>
+
+
+<style>
+    .carousel {
+        width: 600px;
+        height: 300px;
+
+        /* 图像圆角 */
+        border-radius: 0px;
+
+        overflow: hidden;
+
+        position: relative;
+    }
+
+    .carousel .container {
+        width: 100%;
+        height: 100%;
+
+        position: relative;
+        left: 0;
+
+        display: flex;
+
+        /* 过渡动画 1s */
+        transition: all 1s;
+    }
+
+    .carousel .container a {
+        width: 100%;
+        height: 100%;
+
+        flex-shrink: 0;
+    }
+
+    .carousel .container a img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+    .carousel .shift .btn {
+        /* 绝对定位且垂直居中 */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+
+        background-color: gray;
+        color: white;
+
+        width: 50px;
+        height: 50px;
+        border-radius: 8px;
+
+        font-size: 50px;
+        font-weight: bold;
+
+        /* 字符水平垂直居中 */
+        line-height: 50px;
+        text-align: center;
+
+        cursor: pointer;
+
+        user-select: none;
+
+        /* 不透明度 0.5 */
+        opacity: 0.5;
+    }
+    .carousel .shift .left {
+        left: 20px;
+    }
+    .carousel .shift .right {
+        right: 20px;
+    }
+
+    .carousel .bottom {
+        position: absolute;
+
+        bottom: 20px;
+
+        /* 绝对定位水平居中 */
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+
+        /* 宽度等同于内容宽度 */
+        width: max-content;
+
+        display: flex;
+        /* 指示器间距 */
+        gap: 10px;
+    }
+
+    .carousel .bottom .indicator {
+        height: 5px;
+        width: 40px;
+
+        background-color: gray;
+
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+    .carousel:hover .bottom .indicator {
+        opacity: 1;
+    }
+    .carousel:hover .shift .btn {
+        opacity: 1;
+    }
+</style>
+<script>
+    // 显示的图片下标
+    let index = 0
+
+    // 图片的数量
+    let imageCount = document.querySelectorAll(
+        ".carousel .container img"
+    ).length
+
+    const bottom = document.querySelector(".carousel .bottom")
+    for (let i = 0; i < imageCount; i++) {
+
+        // 创建底部按钮
+        const indicator = document.createElement("div")
+        indicator.classList.add("indicator")
+        indicator.onclick = () => setIndex(i)
+
+        bottom.append(indicator)
+    }
+
+    function createAuto() {
+        return setInterval(() => {
+            index++
+            refresh()
+        }, 3000)
+    }
+
+    // 自动滚动
+    let autoTimer = createAuto()
+
+    function refresh() {
+        if (index < 0) {
+            // 下标小于 0 时
+            // 设置最右的图片
+            index = imageCount - 1
+        } else if (index >= imageCount) {
+            // 下标超过上限时
+            // 设置最左的图片
+            index = 0
+        }
+
+        // 获取轮播框元素
+        let carousel = document.querySelector(".carousel")
+
+        //获取轮播框的宽度
+        let width = getComputedStyle(carousel).width
+        width = Number(width.slice(0, -2))
+
+        carousel.querySelector(".container").style.left =
+            index * width * -1 + "px"
+    }
+
+    let refreshWrapper = (func) => {
+        // refresh 装饰器
+        return function (...args) {
+            let result = func(...args)
+            refresh()
+
+            // 重置自动滚动
+            clearInterval(autoTimer)
+            autoTimer = createAuto()
+            return result
+        }
+    }
+
+    let leftShift = refreshWrapper(() => {
+        index--
+    })
+    let rightShift = refreshWrapper(() => {
+        index++
+    })
+
+    let setIndex = refreshWrapper((idx) => {
+        index = idx
+    })
+
+    refresh()
+</script>
