@@ -1,223 +1,180 @@
 <!DOCTYPE html>
-<html class="csstransforms csstransforms3d csstransitions">
-
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>图像解译与智能处理实验室</title>
-	<link href="./files/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-	<link href="./files/style.css" rel="stylesheet" type="text/css" media="all">
-	<link href="./files/prettyPhoto.css" rel="stylesheet" type="text/css" media="all">
-	<link href="./files/css" rel="stylesheet" type="text/css">
-	<link href="./files/content.css" rel="stylesheet" type="text/css" media="all">
-	<link href="./files/font.css" rel="stylesheet" type="text/css" media="all">
-	<script type="text/javascript" src="./files/jquery.min.js.下载"></script>
-	<script type="text/javascript" src="./files/bootstrap.js.下载"></script>
-	<script type="text/javascript" src="./files/jquery.banner.js.下载"></script>
-	<script type="text/javascript" src="./files/jquery.prettyPhoto.js.下载"></script>
-	<script type="text/javascript" src="./files/jquery.isotope.js.下载"></script>
-	<script type="text/javascript" src="./files/main.js.下载"></script>
-	<script>
-		var lastname = 'Me';
-
-		function func(name) {
-			var div = document.getElementById(name);
-			div.className = 'active';
-			div = document.getElementById(lastname);
-			div.className = '';
-			lastname = name;
-		}
-
-		function coming_soon() {
-			alert("Coming soon.");
-		}
-	</script>
+	<link rel="stylesheet" href="./stylesheet/bootstrap.css">
+	<link rel="stylesheet" href="./stylesheet/style.css">
+    <base target="_blank">
+    <link rel="icon" href="./img/icon/ai.ico" type="image/x-ico">
 </head>
-
 <body>
-	<div class="header">
-		<div class="top-nav" style="display: flex;">
-			<div style="float: left;width: 289px;">
-				<ul>
-					<li id=" index" onclick="func(&#39;Me&#39;)"><a href="./index.html" class="scroll">主页</a></li>
-					<li id="Member" onclick="func(&#39;Member&#39;)"><a href="./Member.html" class="scroll">成员</a></li>
-					<li id="Publication" onclick="func(&#39;Publications&#39;)"><a href="./Publication.html"
-							class="scroll">论著</a></li>
-				</ul>
-			</div>
-			<div style="text-align:center; float: none;margin-top:2px;">
-				<img style="width: 20%; height: auto;" src="./img/else/ai.jpg">
-			</div>
-			<div style="float: right;">
-				<ul>
-					<li id="Achievement" onclick="func(&#39;Achievement&#39;)"><a href="./Achievement.html"
-							class="scroll">成果</a></li>
-					<li id="Act" onclick="func(&#39;Act&#39;)"><a href="./Act.html" class="scroll">活动</a></li>
-					<li id="Contact" onclick="func(&#39;Contact&#39;)"><a href="./Contact.html" class="scroll">联系方式</a>
-				</ul>
-			</div>
-		</div>
-
-		<div class="clear"> </div>
-	</div>
-
-	<div class="main_box_outside">
-		<div class="main_box" style="margin-bottom: 5px;">
-			<div class="main_box_inside">
-
-				<div class="row">
-
-					<div class="col-md-12 academicegree">
-						<h4 class="text-center  black-text" style="font-size: 30px;"><i>教师</i></h4>
-					</div>
-
-					<div class="col-md-4">
-						<div class="thumbnail-people">
-							<a href="#">
-								<img src="./img/teachers/teachers_round/zhangfan_r.jpg" class="people-photo">
-							</a>
-							<div class="caption">
-								<h3><b><a href="./teacher_detail/detail_zf.html">张帆</a></b></h3>
-								<p>教授，博士生导师</p>
-								<p>北京化工大学信息学院科研副院长</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="thumbnail-people">
-							<a href="#">
-								<img src="./img/teachers/teachers_round/zhouyongsheng_r.jpg" class="people-photo">
-							</a>
-							<div class="caption">
-								<h3><b><a href="./teacher_detail/detail_zys.html">周勇胜</a></b></h3>
-								<p>教授</p>
-								<p>硕士生导师</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="thumbnail-people">
-							<a href="#">
-								<img src="./img/teachers/teachers_round/huwei_r.jpg" class="people-photo">
-							</a>
-							<div class="caption">
-								<h3><b><a href="./teacher_detail/detail_hw.html">胡伟</a></b></h3>
-								<p>副教授</p>
-								<p>硕士生导师</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="thumbnail-people">
-							<a href="#">
-								<img src="./img/teachers/teachers_round/yinqiang_r.jpg" class="people-photo">
-							</a>
-							<div class="caption">
-								<h3><b><a href="./teacher_detail/detail_yq.html">尹嫱</a></b></h3>
-								<p>副教授</p>
-								<p>硕士生导师</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="thumbnail-people">
-							<a href="#">
-								<img src="./img/teachers/teachers_round/mafei_r.jpg" class="people-photo">
-							</a>
-							<div class="caption">
-								<h3><b><a href="./teacher_detail/detail_mf.html">马飞</a></b></h3>
-								<p>副教授</p>
-								<p>硕士生导师</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-4">
-						<div class="thumbnail-people">
-							<a href="#">
-								<img src="./img/teachers/teachers_round/xiangdeliang_r.jpg" class="people-photo">
-							</a>
-							<div class="caption">
-								<h3><b><a href="./teacher_detail/detail_xdl.html">项德良</a></b></h3>
-								<p>教授</p>
-								<p>硕士生导师</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-6">
-						<div class="thumbnail-people">
-							<a href="#">
-								<img src="./img/teachers/teachers_round/hucanbin_r.jpg" class="people-photo">
-							</a>
-							<div class="caption">
-								<h3><b><a href="./teacher_detail/detail_hcb.html">胡粲彬</a></b></h3>
-								<p>工学博士</p>
-								<p>硕士生导师</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-6">
-						<div class="thumbnail-people">
-							<a href="#">
-								<img src="./img/teachers/teachers_round/sunxiaokun_r.jpg" class="people-photo">
-							</a>
-							<div class="caption">
-								<h3><b><a href="./teacher_detail/detail_sxk.html">孙晓坤</a></b></h3>
-								<p>副研究员</p>
-								<p>硕士生导师</p>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-		</div>
-
-		<div class="main_box">
-			<div class="main_box_inside">
-				<div class="row">
-					<div class="col-md-12 academicegree">
-						<h4 class="text-center  black-text" style="font-size: 30px;"><i>毕业研究生</i></h4>
-						<div style="line-height: 1.5em;">
-							
-							<h4><i><b>博士</b></i></h4>
-							<h4>2022:&emsp;倪军-中科院空天院</h4>
-							
-							<hr />
-
-							<h4><i><b>硕士</b></i></h4>
-							<h4>2014:&emsp;刘欢-天津审协</h4>
-							<h4>2015:&emsp;万智鹏-百行征信&ensp;&emsp;何雪-浙江联通</h4>
-							<h4>2016:&emsp;胡辰-中科曙光&emsp;&emsp;&ensp;李国君-字节跳动</h4>
-							<h4>2017:&emsp;苏丹丹-北京联通&emsp;&ensp;唐明-欧菲智能车联</h4>
-							<h4>2018:&emsp;汤晗媛-招银网络&emsp;&ensp;姚晓杰-杭州公务员</h4>
-							<h4>2019:&emsp;傅真珍-中冶京诚</h4>
-							<h4>2020:&emsp;吴优-中电电科院&ensp;&emsp;王云冲-中科曙光&ensp;&emsp;金啸宇-北京锐安</h4>
-							<h4>2021:&emsp;杜文瑞-北京泰康&ensp;&emsp;赵晨茜-国防科大&ensp;&emsp;黄恒华-上海展讯</h4>
-							
-							<hr />
-							
-							<h4><i><b>本科</b></i></h4>
-							<h4>2014:&emsp;林一鸣-Facebook AI Research (伦敦)</h4>
-							<h4>2015:&emsp;李志鑫-Line (东京)</h4>
-							<h4>2018:&emsp;陈弘毅-卡内基梅隆大学(美国)</h4>
-							<h4>2019:&emsp;贾云哲-杜克大学(美国)</h4>
-
-							<!-- <hr /> -->
-
-						</div>
+    <div class="head">
+		<div style="display: inline-block; position: absolute; left: 23px;">
+		  <span style="font-size: 22px;line-height: 50px;">图像解译与智能处理实验室</span>
+	  </div>
+	  <img src="./img/icon/ai.ico" alt="" 
+	  style="height: 40px;width: auto; position: absolute; top: 5px;
+	  z-index: 2;
+	  left: calc(50% - 20px);
+	  " >
+	  <ul id="head">
+		<li><a id="head" href="./index.html">主页</a></li>
+		<li><a id="head" href="./member.html">成员</a></li>
+		<li><a id="head" href="./publication.html">论著</a></li>
+		<li><a id="head" href="./achievement.html">成果</a></li>
+		<li><a id="head" href="./act.html">活动</a></li>
+		<li><a id="head" href="./contact.html">联系</a></li>
+		</ul>
+	  </div>
+	<div class="main">
+		<div>
+			<div class="col-md-4">
+				<div class="thumbnail-people">
+					<a href="./teacher_detail/zhang_f.html">
+						<img src="./img/teachers/teachers_round/zhangfan_r.jpg" class="people-photo">
+					</a>
+					<div class="caption">
+						<h3><b><a href="./teacher_detail/zhang_f.html">张帆</a></b></h3>
+						<p>教授，博士生导师</p>
+						<p>北京化工大学信息学院科研副院长</p>
 					</div>
 				</div>
 			</div>
+	
+			<div class="col-md-4">
+				<div class="thumbnail-people">
+					<a href="./teacher_detail/zhou_ys.html">
+						<img src="./img/teachers/teachers_round/zhouyongsheng_r.jpg" class="people-photo">
+					</a>
+					<div class="caption">
+						<h3><b><a href="./teacher_detail/zhou_ys.html">周勇胜</a></b></h3>
+						<p>教授</p>
+						<p>硕士生导师</p>
+					</div>
+				</div>
+			</div>
+	
+			<div class="col-md-4">
+				<div class="thumbnail-people">
+					<a href="./teacher_detail/hu_w.html">
+						<img src="./img/teachers/teachers_round/huwei_r.jpg" class="people-photo">
+					</a>
+					<div class="caption">
+						<h3><b><a href="./teacher_detail/hu_w.html">胡伟</a></b></h3>
+						<p>副教授</p>
+						<p>硕士生导师</p>
+					</div>
+				</div>
+			</div>
+	
+			<div class="col-md-4">
+				<div class="thumbnail-people">
+					<a href="./teacher_detail/yin_q.html">
+						<img src="./img/teachers/teachers_round/yinqiang_r.jpg" class="people-photo">
+					</a>
+					<div class="caption">
+						<h3><b><a href="./teacher_detail/yin_q.html">尹嫱</a></b></h3>
+						<p>副教授</p>
+						<p>硕士生导师</p>
+					</div>
+				</div>
+			</div>
+	
+			<div class="col-md-4">
+				<div class="thumbnail-people">
+					<a href="./teacher_detail/ma_f.html">
+						<img src="./img/teachers/teachers_round/mafei_r.jpg" class="people-photo">
+					</a>
+					<div class="caption">
+						<h3><b><a href="./teacher_detail/ma_f.html">马飞</a></b></h3>
+						<p>副教授</p>
+						<p>硕士生导师</p>
+					</div>
+				</div>
+			</div>
+	
+			<div class="col-md-4">
+				<div class="thumbnail-people">
+					<a href="./teacher_detail/xiang_dl.html">
+						<img src="./img/teachers/teachers_round/xiangdeliang_r.jpg" class="people-photo">
+					</a>
+					<div class="caption">
+						<h3><b><a href="./teacher_detail/xiang_dl.html">项德良</a></b></h3>
+						<p>教授</p>
+						<p>硕士生导师</p>
+					</div>
+				</div>
+			</div>
+	
+			<div class="col-md-6">
+				<div class="thumbnail-people">
+					<a href="./teacher_detail/hu_cb.html">
+						<img src="./img/teachers/teachers_round/hucanbin_r.jpg" class="people-photo">
+					</a>
+					<div class="caption">
+						<h3><b><a href="./teacher_detail/hu_cb.html">胡粲彬</a></b></h3>
+						<p>工学博士</p>
+						<p>硕士生导师</p>
+					</div>
+				</div>
+			</div>
+	
+			<div class="col-md-6">
+				<div class="thumbnail-people">
+					<a href="./teacher_detail/sun_xk.html">
+						<img src="./img/teachers/teachers_round/sunxiaokun_r.jpg" class="people-photo">
+					</a>
+					<div class="caption">
+						<h3><b><a href="./teacher_detail/sun_xk.html">孙晓坤</a></b></h3>
+						<p>副研究员</p>
+						<p>硕士生导师</p>
+					</div>
+				</div>
+			</div>
+	
 		</div>
+
+		<hr>
+
+		<div>
+			<table id="students">
+				<tbody>
+					<tr>
+						<td>
+							<b style="font-size: 22px;">博士</b>
+							<p>2022:&emsp;倪军-中科院空天院</p>
+							
+							<hr />
+		
+							<b style="font-size: 22px;">硕士</b>
+							<p>2014:&emsp;刘欢-天津审协</p>
+							<p>2015:&emsp;万智鹏-百行征信&ensp;&emsp;何雪-浙江联通</p>
+							<p>2016:&emsp;胡辰-中科曙光&emsp;&emsp;&ensp;李国君-字节跳动</p>
+							<p>2017:&emsp;苏丹丹-北京联通&emsp;&ensp;唐明-欧菲智能车联</p>
+							<p>2018:&emsp;汤晗媛-招银网络&emsp;&ensp;姚晓杰-杭州公务员</p>
+							<p>2019:&emsp;傅真珍-中冶京诚</p>
+							<p>2020:&emsp;吴优-中电电科院&ensp;&emsp;王云冲-中科曙光&ensp;&emsp;金啸宇-北京锐安</p>
+							<p>2021:&emsp;杜文瑞-北京泰康&ensp;&emsp;赵晨茜-国防科大&ensp;&emsp;黄恒华-上海展讯</p>
+							
+							<hr />
+							
+							<b style="font-size: 22px;">本科</b>
+							<p>2014:&emsp;林一鸣-Facebook AI Research (伦敦)</p>
+							<p>2015:&emsp;李志鑫-Line (东京)</p>
+							<p>2018:&emsp;陈弘毅-卡内基梅隆大学(美国)</p>
+							<p>2019:&emsp;贾云哲-杜克大学(美国)</p>
+		
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
 	</div>
+
+
 </body>
-
 </html>

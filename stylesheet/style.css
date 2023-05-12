@@ -1,0 +1,136 @@
+body {
+    margin: 0!important;
+}
+
+.head {
+    width: 100%;
+    min-width: 800px;
+    height: 50px;
+    background-color: #fff;
+    /* 地址栏下边距 */
+    margin-bottom: 20px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    margin-top: 0;
+    min-width: 1000px;
+    box-shadow:0 2px 10px 0 #888888;
+    padding: 0;
+
+}
+
+.main {
+    width: 80%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* 菜单栏 */
+ul#head {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* padding: 0; */
+    display: flex;
+    justify-content:flex-start;
+    float: right;
+}
+ul#head > li {
+    width: 90px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    font-size: 22px;
+    text-align: center;
+    line-height: 50px;
+    /* padding: 0; */
+
+}
+
+a#head {
+    color: black;
+}
+a#head:link {
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+a#head:hover {
+    color: grey;
+}
+
+
+/* 文本 */
+p {
+    margin: 0;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+p.content {
+    font-size: 18px;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+p.title {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p.subtitle {
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* photo */
+.people-photo {
+    border-radius: 50%;
+    height:200px!important;
+    width:200px!important;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.thumbnail-mvp{
+    padding: 4px;
+    line-height: 1.42857143;
+    text-align: center
+}
+.thumbnail-people{
+    padding: 4px;
+    border-top: 10px;
+    line-height: 1.42857143;
+    text-align: center
+}
+
+.act_photo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: auto;
+}
+
+
+/* li */
+li {
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+/* 教师主页相关 */
+/* introduction */
+div.intro {
+    text-align: justify;
+}
+
+/* papers */
+div.papers {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5em;
+}

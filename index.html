@@ -1,182 +1,86 @@
 <!DOCTYPE html>
-<html class="csstransforms csstransforms3d csstransitions">
-
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>图像解译与智能处理实验室</title>
-	<link href="./files/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-	<link href="./files/style.css" rel="stylesheet" type="text/css" media="all">
-	<link href="./files/prettyPhoto.css" rel="stylesheet" type="text/css" media="all">
-	<link href="./files/css" rel="stylesheet" type="text/css">
-	<link href="./files/font.css" rel="stylesheet" type="text/css" media="all">
-	<link href="./files/content.css" rel="stylesheet" type="text/css" media="all">
-	<script charset="utf-8" src="chrome-extension://jgphnjokjhjlcnnajmfjlacjnjkhleah/js/btype.js"></script>
-	<script type="text/javascript" id="clustrmaps"
-		src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=tt&d=LZZ0YTbipXFWZ6lvSaTJt75IoLIi9silsXWRuQDdIwA">
-	</script>
-	<script type="text/javascript" src="./files/jquery.min.js.下载"></script>
-	<script type="text/javascript" src="./files/bootstrap.js.下载"></script>
-	<script type="text/javascript" src="./files/jquery.banner.js.下载"></script>
-	<script type="text/javascript" src="./files/jquery.prettyPhoto.js.下载"></script>
-	<script type="text/javascript" src="./files/jquery.isotope.js.下载"></script>
-	<script type="text/javascript" src="./files/main.js.下载"></script>
-	<script>
-		var lastname = 'Me';
-
-		function func(name) {
-			var div = document.getElementById(name);
-			div.className = 'active';
-			div = document.getElementById(lastname);
-			div.className = '';
-			lastname = name;
-		}
-
-		function coming_soon() {
-			alert("Coming soon.");
-		}
-	</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图像解译与智能处理实验室</title>
+    <link rel="stylesheet" href="./stylesheet/style.css">
+    <link rel="icon" href="./img/icon/ai.ico">
+    <base target="_blank">
 </head>
-
 <body>
-	<div class="header">
-		<div class="top-nav" style="display: flex;">
-			<div style="float: left;width: 289px;">
-				<ul>
-					<li id=" index" onclick="func(&#39;Me&#39;)"><a href="./index.html" class="scroll">主页</a></li>
-					<li id="Member" onclick="func(&#39;Member&#39;)"><a href="./Member.html" class="scroll">成员</a></li>
-					<li id="Publication" onclick="func(&#39;Publications&#39;)"><a href="./Publication.html"
-							class="scroll">论著</a></li>
-				</ul>
-			</div>
-			<div style="text-align:center; float: none;">
-				<img style="width: 20%; height: auto;" src="./img/else/ai.jpg">
-			</div>
-			<div style="float: right;">
-				<ul>
-					<li id="Achievement" onclick="func(&#39;Achievement&#39;)"><a href="./Achievement.html"
-							class="scroll">成果</a></li>
-					<li id="Act" onclick="func(&#39;Act&#39;)"><a href="./Act.html" class="scroll">活动</a></li>
-					<li id="Contact" onclick="func(&#39;Contact&#39;)"><a href="./Contact.html" class="scroll">联系方式</a>
-				</ul>
-			</div>
-		</div>
-
-		<div class="clear"> </div>
-	</div>
-
-	<div class="main_box_outside">
-		<div class="main_box" style="margin-bottom: 5px;">
-			<div class="main_box_inside">
-					<b><i><h3 style="line-height: 2em;">实验室概述</h3></i></b>
-					实验室针对光电遥感图像智能解译国家重大需求，重点在目标智能检测与识别、环境智能分析与反演、极化SAR多维特征提取与学习、SAR系统成像仿真与定标、高性能计算与边缘部署等领域开展创新研究，为空天遥感信息精准快速利用赋能，为构建智能空天信息系统培养一流人才，服务国家安全、资源环境保护与可持续发展。
-					<br>
-					<br>
-
-					实验室团队由9名专职教师、1名客座教授及60余名研究生构成。近5年在在遥感领域权威期刊(
-					<strong>
-						<font style="font-style: italic;">IEEE TGRS/JSTARS/GRSL、ISPRS PHOTOGRAMM等</font>
-					</strong>
-					)、
-					计算机视觉顶刊顶会（
-					<strong>
-						<font style="font-style: italic;">IEEE TIP、PR、CVPR等</font>
-					</strong>
-					）发表高质量科研论文100余篇，“遥感技术”连续两年（2020/2021）
-					荣登软科世界一流学科排名榜（
-					<font style="text-decoration: underline;">世界51-75位次，国内15-17位次</font>
-					）。
-
-					<br>
-					<br>
-
-					实验室着力培养学生专业能力，带领学生积极参加“航天星图杯”、“中科星图杯”、“眼神杯”等全国高分图像解译大赛，荣获冠军4次；着力培养学生国际化视野，推荐本科生到帝国理工、东京大学、卡内基梅隆等世界一流大学8人次，资助硕士生出国参加国际会议并做报告10余次，支持博士生申请海外联合培养比率达100%。
-
-					<br>
-					<br>
-
-					实验室承担30余项科研项目，其中国家自然科学基金项目12项、国家级人才工程项目1项、参与国家民用高分重大专项2项、海洋公益性行业科研专项1项，研究成果在多个型号卫星地面系统中得到应用。
-
-					<br>
-					<br>
-
-					实验室具有Peta级别深度学习计算环境，GTX1080性能以上显卡70张，深度学习工作站60套、服务器4套，课题经费充足，能够充分满足人工智能算法的学习、研究的需要，欢迎
-					<font style="font-style: italic;">信息与通信工程</font>
-					、
-					<font style="font-style: italic;">计算机科学与技术</font>
-					、
-					<font style="font-style: italic;">自动化</font>
-					等相关专业同学报考硕士、博士研究生！
-
-			</div>
-		</div>
-
-		<div class="main_box">
-			<div class="main_box_inside">
-				<b><i><h3 style="line-height: 2em;">最新新闻</h3></i></b>
-				
-				<li>					
-					[2023.01]实验室在自然图像数据增强方面的工作被AI顶会ICLR 2023接收！
-					<img src="./img/sub_img/new.jpg" style="height: 18px; width: auto;">
-				</li>
-				<li>
-					[2022.12]实验室在SAR图像水陆分割方面的工作被IEEE Sensors接收！
-					<img src="./img/sub_img/new.jpg" style="height: 18px; width: auto;">
-				</li>
-				<li>
-					[2022.12]实验室在SAR图像显著性检测方面的工作被IEEE TGRS接收！
-					<img src="./img/sub_img/new.jpg" style="height: 18px; width: auto;">
-				</li>
-				<li>
-					[2022.11]实验室在一维遥感信号分类方面的工作被IEEE GRSL接收!
-				</li>
-				<li>
-					[2022.10]实验室在SAR交叉定标方面的工作被IEEE JSTARS接收!
-				</li>
-				<li>
-					[2022.10]实验室在时序极化SAR分类方面的工作被IEEE TGRS接收!
-				</li>
-				<li>
-					[2022.10]实验室联合加泰罗尼亚理工大学在时序SAR/PolSAR相关性分析方面的工作被IEEE TGRS接收!
-				</li>
-				<li>
-					[2022.09]实验室在SAR目标检测、极化SAR分类方面获得国家自然科学基金面上、青年项目各1项!
-				</li>
-			</div>
-		</div>
-
-		<!-- 左右布局，在20230305的更新已弃用 -->
-		<!-- <div class="main_box" style="height: 250px; background-color: #f3f3f3;">
-			<div class="main_box" style="height: 250px; float: left; width: calc(50% - 2.5px);">
-				<div class="main_box_inside">
-					<h4 style="font-size: 20px; line-height: 1.5em;"><b><i>最新新闻</i></b></h4>
-					<li>
-						<img src="./img/sub_img/Hot_News.gif" style="height: 16px; width: auto;">
-						2023-02：祝贺赵启浩同学论文被ICLR2023接收！
-					</li>
-					<li>
-						<img src="./img/sub_img/Hot_News.gif" style="height: 16px; width: auto;">
-						2023-01：祝贺杨坤同学论文被IEEE Sensors接收！
-
-					</li>
-					<li>
-						<img src="./img/sub_img/Hot_News.gif" style="height: 16px; width: auto;">
-						2022-12：祝贺孙学娇同学论文被IEEE TGRS接收！
-					</li>
-				</div>
-			</div>
-			
-			<div class="main_box" style="height: 250px; float: right; width: calc(50% - 2.5px);">
-				<div class="main_box_inside">
-					<h4 style="font-size: 20px; line-height: 1.5em;"><b><i>科研里程碑</i></b></h4>
-					<br>
-
-				</div>
-			</div>
-		</div> -->
-	</div>
+    <div class="head">
+        <div style="display: inline-block; position: absolute; left: 23px;">
+            <span style="font-size: 22px;line-height: 50px;">图像解译与智能处理实验室</span>
+        </div>
+        <img src="./img/icon/ai.ico" alt="" 
+        style="height: 40px;width: auto; position: absolute; top: 5px;
+        z-index: 2;
+        left: calc(50% - 20px);
+        " >
+        <ul id="head">
+            <li><a id="head" href="./index.html">主页</a></li>
+            <li><a id="head" href="./member.html">成员</a></li>
+            <li><a id="head" href="./publication.html">论著</a></li>
+            <li><a id="head" href="./achievement.html">成果</a></li>
+            <li><a id="head" href="./act.html">活动</a></li>
+            <li><a id="head" href="./contact.html">联系</a></li>
+          </ul>
+    </div>
+    <div class="main" style="font-size: 0px;">
+        <!-- <p class="title">图像解译与智能处理实验室</p> -->
+        <div style="font-size: 18px; text-align: justify;margin-bottom: 10px;">
+            实验室针对光电遥感图像智能解译国家重大需求，重点在目标智能检测与识别、环境智能分析与反演、极化SAR多维特征提取与学习、SAR系统成像仿真与定标、高性能计算与边缘部署等领域开展创新研究，为空天遥感信息精准快速利用赋能，为构建智能空天信息系统培养一流人才，服务国家安全、资源环境保护与可持续发展。
+            <br>
+            <br>
+            实验室团队由9名专职教师、1名客座教授及60余名研究生构成。近5年在在遥感领域权威期刊(<b><span style="font-style: italic;">IEEE TGRS/JSTARS/GRSL、ISPRS PHOTOGRAMM等</span></b>)、计算机视觉顶刊顶会（<b><span style="font-style: italic;">IEEE TIP、PR、CVPR等</span></b>）发表高质量科研论文100余篇，“遥感技术”连续两年（2020/2021）荣登软科世界一流学科排名榜（<span style="text-decoration: underline;">世界51-75位次，国内15-17位次</span>）。
+            <br>
+            <br>
+            实验室着力培养学生专业能力，带领学生积极参加“航天星图杯”、“中科星图杯”、“眼神杯”等全国高分图像解译大赛，荣获冠军4次；着力培养学生国际化视野，推荐本科生到帝国理工、东京大学、卡内基梅隆等世界一流大学8人次，资助硕士生出国参加国际会议并做报告10余次，支持博士生申请海外联合培养比率达100%。
+            <br>
+            <br>
+            实验室承担30余项科研项目，其中国家自然科学基金项目12项、国家级人才工程项目1项、参与国家民用高分重大专项2项、海洋公益性行业科研专项1项，研究成果在多个型号卫星地面系统中得到应用。
+            <br>
+            <br>
+            实验室具有Peta级别深度学习计算环境，GTX1080性能以上显卡70张，深度学习工作站60套、服务器4套，课题经费充足，能够充分满足人工智能算法的学习、研究的需要，欢迎<span style="font-style: italic;">信息与通信工程</span>、<span style="font-style: italic;">计算机科学与技术</span>、<span style="font-style: italic;">自动化</span>等相关专业同学报考硕士、博士研究生！
+        </div>
+        <hr>
+        <div style="line-height: 30px;">
+            <p class="subtitle">最新新闻</p>
+            <li>					
+                [2023.01] 实验室在自然图像数据增强方面的工作被AI顶会ICLR 2023接收！
+                <img src="./img/sub_img/new.jpg" style="height: 18px; width: auto;">
+            </li>
+            <li>
+                [2022.12] 实验室在SAR图像水陆分割方面的工作被IEEE Sensors接收！
+                <img src="./img/sub_img/new.jpg" style="height: 18px; width: auto;">
+            </li>
+            <li>
+                [2022.12] 实验室在SAR图像显著性检测方面的工作被IEEE TGRS接收！
+                <img src="./img/sub_img/new.jpg" style="height: 18px; width: auto;">
+            </li>
+            <li>
+                [2022.11] 实验室在一维遥感信号分类方面的工作被IEEE GRSL接收!
+            </li>
+            <li>
+                [2022.10] 实验室在SAR交叉定标方面的工作被IEEE JSTARS接收!
+            </li>
+            <li>
+                [2022.10] 实验室在时序极化SAR分类方面的工作被IEEE TGRS接收!
+            </li>
+            <li>
+                [2022.10] 实验室联合加泰罗尼亚理工大学在时序SAR/PolSAR相关性分析方面的工作被IEEE TGRS接收!
+            </li>
+            <li>
+                [2022.09] 实验室在SAR目标检测、极化SAR分类方面获得国家自然科学基金面上、青年项目各1项!
+            </li>
+        </div>
 
 
 
+
+
+    </div>
 </body>
-
 </html>
